@@ -1,9 +1,11 @@
 def get_info ():
     info = []
-    name = input('Введите имя: ')
+    name = input('Укажите имя: ')
     info.append(name)
-    phone = input('Введите телефон: ')
+    surname = input('Укажите фамилию: ')
+    info.append(surname)
+    phone = input('Укажите телефон: ')
     info.append(phone)
-    about = input('Введите описание: ')
+    about = input('Дополинтельная информация: ')
     info.append(about)
     return info
