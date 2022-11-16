@@ -6,6 +6,6 @@ def get_info ():
     info.append(surname)
     phone = input('Укажите телефон: ')
     info.append(phone)
-    about = input('Дополинтельная информация: ')
+    about = input('Дополнительная информация: ')
     info.append(about)
     return info
