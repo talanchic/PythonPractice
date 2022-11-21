@@ -3,7 +3,7 @@ from logger import creating_csv, creating_txt, read_contact
 
 
 def operate():
-    print('Добавить новый контакт\n2. Показать телефонную книгу')
+    print('1. Добавить новый контакт\n2. Показать телефонную книгу')
     mode = int(input())
     if mode == 1:
         n = get_info()
