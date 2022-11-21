@@ -1,4 +1,4 @@
 from using import operate
-
-if __name__ == "main":
+print ('Выберите режим работы со справочником: ')
+if __name__=="__main__":
     operate()
